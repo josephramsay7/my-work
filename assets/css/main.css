@@ -4168,3 +4168,12 @@ input, select, textarea {
     margin-top: 8px;
     width: 100%;
 }
+
+	.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-by-side {
+    width: 49%; /* slightly less than 50% to leave a small gap between the images */
+}
