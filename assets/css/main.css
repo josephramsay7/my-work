@@ -4147,3 +4147,24 @@ input, select, textarea {
 		}
 
 	}
+
+	* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.column img {
+    margin-top: 8px;
+    width: 100%;
+}
