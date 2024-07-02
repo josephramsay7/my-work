@@ -4184,3 +4184,7 @@ input, select, textarea {
     position: relative;
     overflow: hidden;
 }
+
+.large-image {
+    width: 100%;
+}
