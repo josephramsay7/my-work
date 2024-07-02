@@ -4177,3 +4177,10 @@ input, select, textarea {
 .side-by-side {
     width: 49%; /* slightly less than 50% to leave a small gap between the images */
 }
+
+.image2NoRound {
+    border: 0;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
