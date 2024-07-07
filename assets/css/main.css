@@ -4187,4 +4187,6 @@ input, select, textarea {
 
 .large-image {
     width: 100%;
+	max-width:50%;
+	height: auto;
 }
