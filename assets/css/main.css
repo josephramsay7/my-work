@@ -4179,6 +4179,7 @@ input, select, textarea {
     justify-content: space-between;
 }
 
+
 .side-by-side {
     width: 49%; /* slightly less than 50% to leave a small gap between the images */
 }
@@ -4195,3 +4196,13 @@ input, select, textarea {
 	max-width:50%;
 	height: auto;
 }
+
+
+    .image-container2 {
+        display: flex;
+        justify-content: center;
+    }
+    .image-container2 img {
+        width: 100%;
+        max-width: 600px; /* Adjust this value as needed */
+    }
