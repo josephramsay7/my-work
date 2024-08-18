@@ -2268,6 +2268,11 @@ input, select, textarea {
 
 /* Image */
 
+	.responsive-image {
+    			max-width: 100%;
+    			height: auto;
+	}
+		
 	.image {
 		border-radius: 6px;
 		border: 0;
